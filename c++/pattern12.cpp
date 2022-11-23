@@ -14,6 +14,7 @@ int main(){
         }
         cout<<endl;
     }
+    /*
     for(int i=1;i<=n;i++){
         int s;
         for(s=1;s<i;s++){
@@ -23,6 +24,6 @@ int main(){
             cout<<"*"<<" ";
         }
         cout<<endl;
-    }
+    }  */
     return 0;
 }
