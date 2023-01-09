@@ -18,9 +18,9 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"> <img src="/html/1/images/logo.png" alt="logo"></a>
+            <a href="index.html"> <img src="/images/logo.png" alt="logo"></a>
             <div class="nav-links" id="navlinks">
-            <i class="fa fa-times" id="band" onclick="hideMenu()" ></i>
+            <button class="fa fa-times" id="band" onclick="hideMenu()" ></button>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -29,7 +29,7 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" id="khul" onclick="showMenu()"></i>
+            <button class="fa fa-bars" id="khul" onclick="showMenu()"></button>
         </nav>
         <div class="text-box">
             <h1>World's Best Cars</h1>
@@ -76,7 +76,7 @@
 
     var navLinks = document.getElementById(navlinks);
     function showMenu(){
-        navLinks.style.right='0';
+        navLinks.style.right='0px';
     }
     function hideMenu(){
         navLinks.style.right='-200px';
